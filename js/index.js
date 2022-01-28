@@ -6,7 +6,7 @@ const color =["red", "green", "pink", "purple","orange",'white']
 const firstDiv = document.querySelector(".btn-div")
 const stopNow = document.querySelector(".stop-now")
 const countryAsk =  document.querySelector("#country")
-const cote = document.querySelector(".civ")
+// const cote = document.querySelector(".civ")
 let currentColor =  Math.floor(Math.random()*color.length)
 
 
@@ -33,8 +33,8 @@ stopNow.addEventListener('click',function(){
     
 })
 
-cote.addEventListener('click',function(){
-    document.body.style.backgroundColor = color[4,5]
-})
+// cote.addEventListener('click',function(){
+//     document.body.style.backgroundColor = color[4,5]
+// })
 
 
